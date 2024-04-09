@@ -1,0 +1,29 @@
+.header__mobile {
+  padding-top: 21px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+.header__connection {
+  width: 100px;
+  height: 30px;
+  background: transparent;
+  border: 2px solid #859ba6;
+  border-radius: 5px;
+
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  color: #859ba6;
+}
+.header__svg {
+  fill: #859ba6;
+}
