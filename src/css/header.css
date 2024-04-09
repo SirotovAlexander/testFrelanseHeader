@@ -24,6 +24,15 @@
   font-weight: 500;
   color: #859ba6;
 }
+.header__connection:hover {
+  background: #859ba6;
+  border: 2px solid #859ba6;
+
+  color: white;
+}
 .header__svg {
+  fill: #859ba6;
+}
+.header__svgClose {
   fill: #859ba6;
 }
