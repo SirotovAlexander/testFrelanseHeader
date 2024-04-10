@@ -96,6 +96,7 @@ h1 {
 .cookies__popup {
   position: absolute;
   bottom: 0;
+  right: 0;
   padding: 15px 20px 15px 20px;
   display: flex;
   flex-direction: row;
@@ -122,6 +123,7 @@ h1 {
   background: transparent;
   border: 2px solid #859ba6;
   border-radius: 5px;
+  text-align: center;
 
   font-size: 12px;
   font-style: normal;
