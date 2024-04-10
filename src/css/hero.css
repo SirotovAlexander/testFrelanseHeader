@@ -1,0 +1,136 @@
+.hero {
+  background: linear-gradient(#f7f9fb4d, #d4e3ec4d);
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.hero__elements {
+  position: relative;
+}
+h1 {
+  display: none;
+}
+.hero__info {
+  max-width: 200px;
+  margin-bottom: 19px;
+  margin-right: auto;
+}
+.hero__title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 130%;
+  color: #333333;
+
+  margin-bottom: 10px;
+}
+.hero__text {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 130%;
+  color: #333333;
+  text-align: start;
+
+  margin-bottom: 15px;
+}
+.hero__button {
+  width: 100px;
+  height: 35px;
+  background: #859ba6;
+  border: 2px solid #859ba6;
+  border-radius: 5px;
+
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  color: #fff;
+}
+.hero__button:hover {
+  color: #859ba6;
+  background: transparent;
+}
+.hero__img {
+  margin: 0 auto;
+  max-width: 560px;
+  max-height: 385px;
+  margin-bottom: 20px;
+}
+.hero__secondInfo {
+  max-width: 160px;
+  margin-left: auto;
+}
+.hero__description {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 130%;
+  color: #333333;
+  text-align: start;
+
+  margin-bottom: 5px;
+}
+.hero__product {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 130%;
+  color: #333333;
+  text-align: start;
+  margin-bottom: 15px;
+}
+.hero__buttonDetails {
+  width: 100px;
+  height: 35px;
+  background: transparent;
+  border: 2px solid #859ba6;
+  border-radius: 5px;
+
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  color: #859ba6;
+}
+.hero__buttonDetails:hover {
+  background: #859ba6;
+  border: 2px solid #859ba6;
+
+  color: white;
+}
+
+.cookies__popup {
+  position: absolute;
+  bottom: 0;
+  padding: 15px 20px 15px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #fff;
+  max-width: 460px;
+  width: 100%;
+}
+.cookies__info {
+  max-width: 160px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #333333;
+}
+.cookies__link {
+  color: #859ba6;
+  text-decoration: underline;
+}
+.cookies__button {
+  width: 70px;
+  height: 35px;
+  background: transparent;
+  border: 2px solid #859ba6;
+  border-radius: 5px;
+
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  color: #859ba6;
+}
+.cookies__button:hover {
+  background: #859ba6;
+  border: 2px solid #859ba6;
+
+  color: white;
+}

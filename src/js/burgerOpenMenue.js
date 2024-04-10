@@ -2,8 +2,6 @@ const openButton = document.querySelector('.header__svg');
 const closeButton = document.querySelector('.header__svgClose');
 const burgerMenue = document.querySelector('.burger-menu');
 
-console.dir(burgerMenue);
-
 openButton.addEventListener('click', onOpen);
 closeButton.addEventListener('click', onClose);
 
