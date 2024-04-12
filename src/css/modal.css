@@ -7,6 +7,10 @@
   background-color: #3333;
   backdrop-filter: blur(10px);
 }
+.modalWindov__svg {
+  position: absolute;
+  right: 15px;
+}
 .modalWindov {
   padding: 15px;
   margin-top: 10px;
@@ -15,8 +19,31 @@
   height: 100%;
   background-color: white;
 }
+.modal-wrapper {
+  width: 290px;
+  margin: 0 auto;
+  padding-top: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.modal__input-wrapper {
+  position: relative;
+}
+
+.modal__input {
+  height: 35px;
+  width: 290px;
+}
+
 .urkFlag {
   width: 20px;
   height: 14px;
   background-image: url('../img/flagMOB.png');
+  position: absolute;
+  top: 17px;
+}
+.checkeError {
+  border-color: red;
 }
