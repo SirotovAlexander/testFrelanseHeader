@@ -46,4 +46,5 @@
 }
 .checkeError {
   border-color: red;
+  background-color: red;
 }
