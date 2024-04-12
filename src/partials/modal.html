@@ -27,6 +27,8 @@
             placeholder="Ваше ім’я*"
             class="modal__input"
             autocomplete
+            required
+            pattern="[a-zA-Zа-яА-ЯҐґЄєІіЇї']+"
           />
           <!-- <label for="tel-area" class="modal__lable">+380-00-000-00-00*</label> -->
           <div class="modal__input-wrapper">
@@ -37,6 +39,8 @@
               placeholder="+380-00-000-00-00*"
               class="modal__input modal__input--fix"
               autocomplete
+              required
+              pattern="[0-9\+\-\(\) ]+"
             />
             <div class="urkFlag"></div>
           </div>
@@ -48,6 +52,15 @@
           персональних даних.
         </p>
       </div>
+    </div>
+  </div>
+  <div class="thanksWrapper visually-hidden">
+    <div class="thanksBox">
+      <svg class="thanksWrapper__svg" width="40" height="40">
+        <use href="../img/symbol-defs.svg#icon-OKMob"></use>
+      </svg>
+      <h2 class="thanksTitle">Дякуємо за заявку</h2>
+      <p class="thanksText">Ваші дані успішно надіслані!</p>
     </div>
   </div>
 </div>

@@ -70,6 +70,12 @@
   font-weight: 400;
   color: #333333;
 }
+
+.modal__input:invalid {
+  border-color: red;
+  background-color: #ffcccc33;
+}
+
 .modal__input--fix {
   padding-left: 45px;
 }
@@ -103,7 +109,37 @@
   top: 12px;
   left: 15px;
 }
-.checkeError {
-  border-color: red;
-  background-color: #ffcccc33;
+
+.thanksWrapper {
+  padding: 40px;
+  width: 209px;
+  height: 257px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.thanksBox {
+  width: 129px;
+  height: 176px;
+  text-align: center;
+  margin: 0 auto;
+}
+.thanksWrapper__svg {
+  fill: #859ba6;
+  margin-bottom: 20px;
+}
+.thanksTitle {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 130%;
+  color: #333333;
+  margin-bottom: 15px;
+}
+.thanksText {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #333333;
 }
