@@ -5,8 +5,8 @@
     </svg>
     <div class="modal-wrapper">
       <div class="modalWindov__info">
-        <h2>Залишайте заявку</h2>
-        <p>Ми зв’яжемося з вами найближчим часом.</p>
+        <h2 class="modalWindov__title">Залишайте заявку</h2>
+        <p class="modalWindov__text">Ми зв’яжемося з вами найближчим часом.</p>
       </div>
       <div>
         <form class="modal-form" name="modal-form">
@@ -35,7 +35,7 @@
               type="tel"
               id="tel-area"
               placeholder="+380-00-000-00-00*"
-              class="modal__input"
+              class="modal__input modal__input--fix"
               autocomplete
             />
             <div class="urkFlag"></div>
@@ -43,7 +43,7 @@
 
           <button type="submit" class="modal__submit">Відправити</button>
         </form>
-        <p>
+        <p class="modalWindov__rules">
           Натискаючи кнопку “Надіслати”, ви погоджуєтесь з Правилами обробки
           персональних даних.
         </p>

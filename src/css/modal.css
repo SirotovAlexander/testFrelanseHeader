@@ -7,10 +7,6 @@
   background-color: #3333;
   backdrop-filter: blur(10px);
 }
-.modalWindov__svg {
-  position: absolute;
-  right: 15px;
-}
 .modalWindov {
   padding: 15px;
   margin-top: 10px;
@@ -27,7 +23,36 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 25px;
 }
+.modalWindov__svg {
+  position: absolute;
+  right: 15px;
+}
+.modalWindov__title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.modalWindov__text {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #333333;
+  text-align: center;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
 .modal__input-wrapper {
   position: relative;
 }
@@ -35,6 +60,39 @@
 .modal__input {
   height: 35px;
   width: 290px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid #859ba6;
+  border-radius: 5px;
+}
+.modal__input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+}
+.modal__input--fix {
+  padding-left: 45px;
+}
+.modal__submit {
+  width: 290px;
+  height: 35px;
+  background: #859ba6;
+  border: 2px solid #859ba6;
+  border-radius: 5px;
+
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  color: #fff;
+}
+.modal__submit:hover {
+  color: #859ba6;
+  background: transparent;
+}
+.modalWindov__rules {
+  font-size: 10px;
+  font-weight: 400;
+  text-align: start;
 }
 
 .urkFlag {
@@ -42,9 +100,10 @@
   height: 14px;
   background-image: url('../img/flagMOB.png');
   position: absolute;
-  top: 17px;
+  top: 12px;
+  left: 15px;
 }
 .checkeError {
   border-color: red;
-  background-color: red;
+  background-color: #ffcccc33;
 }
