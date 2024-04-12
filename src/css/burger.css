@@ -58,7 +58,13 @@
   height: 25px;
   color: #859ba6;
 }
-
+@media (min-width: 1440px) {
+  .burger-menu__langUA,
+  .burger-menu__langRU {
+    width: 30px;
+    height: 30px;
+  }
+}
 .languageselected {
   color: white;
   background-color: #859ba6;
