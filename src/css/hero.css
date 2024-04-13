@@ -178,6 +178,8 @@ h1 {
 @media (min-width: 1440px) {
   .cookies__popup {
     bottom: -35%;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 .cookies__info {

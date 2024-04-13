@@ -7,6 +7,14 @@
   background-color: #3333;
   backdrop-filter: blur(10px);
 }
+@media (min-width: 1440px) {
+  .bacdrop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .modalWindov {
   padding: 15px;
   margin-top: 10px;
@@ -14,6 +22,15 @@
   max-height: 594px;
   height: 100%;
   background-color: white;
+  position: relative;
+}
+@media (min-width: 1440px) {
+  .modalWindov {
+    width: 482px;
+    height: 476px;
+    margin-top: 0;
+    padding: 60px;
+  }
 }
 .modal-wrapper {
   width: 290px;
@@ -25,9 +42,23 @@
   justify-content: center;
   gap: 25px;
 }
+@media (min-width: 1440px) {
+  .modal-wrapper {
+    padding-top: 0;
+    width: 362px;
+    height: 356px;
+    gap: 40px;
+  }
+}
 .modalWindov__svg {
   position: absolute;
   right: 15px;
+}
+@media (min-width: 1440px) {
+  .modalWindov__svg {
+    right: 30px;
+    top: 30px;
+  }
 }
 .modalWindov__title {
   font-size: 24px;
@@ -36,6 +67,12 @@
   text-align: center;
   margin-bottom: 15px;
 }
+@media (min-width: 1440px) {
+  .modalWindov__title {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+}
 .modalWindov__text {
   font-size: 13px;
   font-weight: 400;
@@ -43,7 +80,11 @@
   color: #333333;
   text-align: center;
 }
-
+@media (min-width: 1440px) {
+  .modalWindov__text {
+    font-size: 16px;
+  }
+}
 .modal-form {
   display: flex;
   flex-direction: column;
@@ -52,7 +93,12 @@
   gap: 10px;
   margin-bottom: 10px;
 }
-
+@media (min-width: 1440px) {
+  .modal-form {
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+}
 .modal__input-wrapper {
   position: relative;
 }
@@ -70,7 +116,11 @@
   font-weight: 400;
   color: #333333;
 }
-
+@media (min-width: 1440px) {
+  .modal__input::placeholder {
+    font-size: 16px;
+  }
+}
 .modal__input:invalid {
   border-color: red;
   background-color: #ffcccc33;
@@ -78,6 +128,19 @@
 
 .modal__input--fix {
   padding-left: 45px;
+}
+@media (min-width: 1440px) {
+  .modal__input {
+    width: 362px;
+    height: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 1440px) {
+  .modal__input--fix {
+    padding-left: 61px;
+  }
 }
 .modal__submit {
   width: 290px;
@@ -95,12 +158,23 @@
   color: #859ba6;
   background: transparent;
 }
+@media (min-width: 1440px) {
+  .modal__submit {
+    width: 362px;
+    height: 45px;
+    font-size: 16px;
+  }
+}
 .modalWindov__rules {
   font-size: 10px;
   font-weight: 400;
   text-align: start;
 }
-
+@media (min-width: 1440px) {
+  .modalWindov__rules {
+    font-size: 13px;
+  }
+}
 .urkFlag {
   width: 20px;
   height: 14px;
@@ -110,6 +184,17 @@
   left: 15px;
 }
 
+@media (min-width: 1440px) {
+  .urkFlag {
+    width: 26px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 14px;
+    left: 20px;
+  }
+}
 .thanksWrapper {
   padding: 40px;
   width: 209px;
@@ -120,15 +205,37 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+@media (min-width: 1440px) {
+  .thanksWrapper {
+    width: 378px;
+    height: 378px;
+    padding: 60px 80px 60px 79px;
+  }
+}
 .thanksBox {
   width: 129px;
   height: 176px;
   text-align: center;
   margin: 0 auto;
 }
+@media (min-width: 1440px) {
+  .thanksBox {
+    width: 219px;
+    height: 258px;
+  }
+}
 .thanksWrapper__svg {
+  width: 40px;
+  height: 40px;
   fill: #859ba6;
   margin-bottom: 20px;
+}
+@media (min-width: 1440px) {
+  .thanksWrapper__svg {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+  }
 }
 .thanksTitle {
   font-size: 24px;
@@ -137,9 +244,19 @@
   color: #333333;
   margin-bottom: 15px;
 }
+@media (min-width: 1440px) {
+  .thanksTitle {
+    font-size: 40px;
+  }
+}
 .thanksText {
   font-size: 13px;
   font-weight: 400;
   line-height: 150%;
   color: #333333;
+}
+@media (min-width: 1440px) {
+  .thanksText {
+    font-size: 16px;
+  }
 }
