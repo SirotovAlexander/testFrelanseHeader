@@ -56,6 +56,10 @@
   width: 25px;
   height: 25px;
   color: #859ba6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 @media (min-width: 1440px) {
   .burger-menu__langUA,
