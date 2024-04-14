@@ -4,6 +4,18 @@
   padding-bottom: 30px;
   position: relative;
 }
+.wrapper-Box {
+  max-width: 767px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+@media (min-width: 1440px) {
+  .wrapper-Box {
+    max-width: 1440px;
+    width: 100%;
+  }
+}
 @media (min-width: 1440px) {
   .header__container {
     padding: 80px 80px 80px 60px;
@@ -175,10 +187,12 @@ h1 {
   background-color: #fff;
   max-width: 460px;
   width: 100%;
+  z-index: 10;
 }
 @media (min-width: 1440px) {
   .cookies__popup {
     right: 60px;
+    bottom: -5%;
     padding-left: 30px;
     padding-right: 30px;
   }
