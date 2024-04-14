@@ -6,6 +6,7 @@
   height: 100%;
   background-color: #3333;
   backdrop-filter: blur(10px);
+  z-index: 15;
 }
 @media (min-width: 1440px) {
   .bacdrop {
