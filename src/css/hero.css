@@ -2,6 +2,7 @@
   background: linear-gradient(#f7f9fb4d, #d4e3ec4d);
   padding-top: 40px;
   padding-bottom: 30px;
+  position: relative;
 }
 @media (min-width: 1440px) {
   .header__container {
@@ -177,7 +178,7 @@ h1 {
 }
 @media (min-width: 1440px) {
   .cookies__popup {
-    bottom: -35%;
+    right: 60px;
     padding-left: 30px;
     padding-right: 30px;
   }
